@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.png" alt="">
+            <p>Certo dia, fascinada pelo mundo ao qual adentrei acidentalmente, decidi aproveitar minha breve liberdade para apreciar a paisagem surreal que me cercava, e fugir um pouco do Quartel General da Guarda, que me acolheu com sorrisos incertos</p>
+            <button class="btn-proximo" data-proximo="1">Se aproximar da toca</button>
+            <button class="btn-proximo" data-proximo="2">Descer a colina</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Ao se apoximar, ouço um barulho, parece algum tipo de animal.</p>
+            <button class="btn-proximo" data-proximo="3">Se aproximar</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para o Q.G.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Encontro apenas uma floresta densa, não deve ser muito perigosa, considerando a proximidade que em com o Q.G.</p>
+            <button class="btn-proximo" data-proximo="5">Adentrar a floresta</button>
+            <button class="btn-proximo" data-proximo="6">Dar meia-volta</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
